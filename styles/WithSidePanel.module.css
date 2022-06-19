@@ -1,0 +1,21 @@
+.withsidepanel {
+    padding-top: 64px;
+    height: 100%;
+    display: flex;
+}
+
+.sidepanel {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    margin-left: 300px;
+    flex: 1;
+}
+
+.listItem {
+    border-radius: 16px !important;
+}
